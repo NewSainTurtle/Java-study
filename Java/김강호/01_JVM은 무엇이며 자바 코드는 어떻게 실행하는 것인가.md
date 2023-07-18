@@ -158,7 +158,7 @@ java 파일이름(.class를 붙이지 않고 실행)
 - JRE를 포함할 뿐만 아니라 컴파일러(javac), javadoc, jar등 개발에 유용한 도구들을 포함하고 있다.
 - 개발하기 위한 개발자들은 JDK를 다운 받으면 된다.
 
-> 참고<br>
+> #### 참고
 > [1] (http://www.tcpschool.com/java/java_intro_programming)<br>
 > [2] (https://velog.io/@mooh2jj/JIT-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EB%9E%80)<br>
 > [3] (https://quantum-jumpin.tistory.com/24)<br>
