@@ -257,6 +257,81 @@ AssertJ의 assertions은 `assertThat(“actual”).isEqualTo(“actual")`와 같
 - 단순히 테스트할 값만 받고 메소드 체이닝으로 assertions를 구현함
 - assertions이 메소드 체이닝 형식으로 구현되어 있어 굳이 메소드의 풀네임을 알필요가 없음
 
+<br>
+
+
+# 연결 리스트(LinkedList)
+
+**LinkedList란?** 각 노드가 데이터와 포인터를 가지고 한 둘로 연결되어 있는 방식의 자료구조이다.
+
+컬렉션(Collection) 프레임워크의 일부이며 `java.util` 패키지에 소속되어 있다.
+
+![연결리스트](https://github.com/NewSainTurtle/CS-study/assets/26339069/96f9d9f8-632d-495f-819e-d77724dcdb83)
+
+데이터를 담고 있는 노드들이 연결되어 있고, 노드의 포인터가 이전 노드와 다음 노드와의 연결을 담당한다.
+
+## ArrayList와의 차이 (장단점)
+
+➕ 중간에 데이터를 추가하거나 삭제하더라도 전체의 인덱스가 한 칸씩 뒤로 밀리거나 당겨지는 일이 없으므로 **ArrayList에 비해서 데이터의 추가, 삭제가 용이하다.**
+
+➖ 인덱스가 없기 때문에, 특정 요소에 접근하기 위해서는 순차 탐색이 필요하여 **탐색 속도가 떨어진다**.
+
+ArrayList는 내부 배열에 객체를 저장해서 인덱스로 관리하며, LikedList는 인접 참조를 링크해서 체인처럼 관리한다.
+
+## LinkedList 사용법
+
+LinkedList는 ArrayList처럼 초기의 크기를 미리 생성할 수 없다.
+
+``` java
+LinkedList list = new LinkedList();// 타입을 설정하지 않으면, Object로 선언됨
+LinkedList<Integer> list1 = new LinkedList<Integer>();// 타입설정 int타입만 사용가능
+LinkedList<Integer> list2 = new LinkedList<>();// new에서 타입 파라미터 생략가능
+LinkedList<Integer> list3 = new LinkedList<Integer>(Arrays.asList(1,2));// 생성시 값추가
+```
+
+### LinkedList 추가 add()
+
+``` java
+LinkedList<Integer> list = new LinkedList<Integer>();
+list.addFirst(1);// 가장 앞에 데이터 1 추가
+list.addLast(2);// 가장 뒤에 데이터 2 추가
+list.add(3);// index 생략 시 가장 뒤에 데이터 3 추가
+list.add(1, 127);// index 1에 데이터 127 추가
+```
+
+**LinkedList에 값이 추가되는 방식**
+1. 먼저 인자로 받은 값으로 Node를 생성한다.
+2. 생성된 노드가 들어갈 자리에서 이전 노드는 생성된 노드를 가리키게 하고, 생성된 노드는 다음 노드를 가리키도록 지정한다.
+
+![연결리스트_추가](https://github.com/NewSainTurtle/CS-study/assets/26339069/4e1d4519-8b36-4aeb-918f-7968f45e35a8)
+
+### LinkedList 삭제 remove()
+``` java
+LinkedList<Integer> list = new LinkedList<Integer>(Arrays.asList(1,2,3,4,5));
+list.removeFirst();// 가장 앞의 데이터 제거
+list.removeLast();// 가장 뒤의 데이터 제거
+list.remove();// index 생략 시 0앞의 데이터 제거
+list.remove(1);// index가 1인 데이터 제거
+list.clear();// 모든 값 제거
+```
+
+**LinkedList에 값이 삭제되는 방식**
+1. 삭제될 노드의 이전 노드가 삭제될 노드의 다음 노드를 가리키게 한다.
+
+![연결리스트_삭제](https://github.com/NewSainTurtle/CS-study/assets/26339069/0fe3d44e-46a8-4c61-b2d2-a4b0f539a8c8)
+
+### LinkedList 검색
+``` java
+LinkedList<Integer> list = new LinkedList<Integer>(Arrays.asList(1,2,3));
+System.out.println(list.contains(1));// list에 1이 있는지 검색
+System.out.println(list.indexOf(1));// 1이 있는 index반환 없으면 -1
+```
+
+`contains(value)`: LinkedList에서 값이 있는지 여부를 확인하는 메소드 (true/false 반환)
+
+`indexOf(value)`: LinkedList에 해당 값이 있는 인덱스 위치를 반환하는 메소드 (값이 없다면 -1 반환)
+
+
   <br>
   
 > 참고 <br>
@@ -264,3 +339,4 @@ AssertJ의 assertions은 `assertThat(“actual”).isEqualTo(“actual")`와 같
 > [2] https://steady-coding.tistory.com/349 <br>
 > [3] https://effortguy.tistory.com/112 <br>
 > [4] https://math-coding.tistory.com/158 <br>
+> [5] https://coding-factory.tistory.com/552 <br>
