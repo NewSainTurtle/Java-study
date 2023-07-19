@@ -1,10 +1,7 @@
 package task03_04;
 
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import task02.LinkedList;
-import task02.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,6 +23,15 @@ class StackTest {
         Stack stack = new Stack();
         stack.push(127);
         assertEquals(stack.pop(),127);
+    }
+
+    @Test
+    @DisplayName("값 두번넣고 빼서 비교")
+    void pushTwiceAndPopTest() {
+        Stack stack = new Stack();
+        stack.push(127);
+        stack.push(34);
+        assertEquals(stack.pop(),34);
     }
 
     @Test

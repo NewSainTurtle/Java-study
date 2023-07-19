@@ -9,10 +9,6 @@ public class ListNode {
         this.next = next;
     }
 
-    public ListNode(int num) {
-        new ListNode(num,null);
-    }
-
     public int getNum() {
         return num;
     }
