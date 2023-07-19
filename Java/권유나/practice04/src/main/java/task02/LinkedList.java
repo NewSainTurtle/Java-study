@@ -50,7 +50,7 @@ public class LinkedList {
 
     public boolean contains(ListNode nodeTocheck) {
         for (ListNode pt = head; pt != null; pt = pt.getNext()) {
-            if (pt.equals(nodeTocheck)) {
+            if (pt.getNum() == nodeTocheck.getNum()) {
                 return true;
             }
         }

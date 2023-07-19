@@ -153,14 +153,5 @@ class LinkedListTest {
             assertTrue(list.contains(node));
         }
 
-        @Test
-        @DisplayName("리스트에 없는 값 찾기: 정수값이 같은 노드가 있는 경우")
-        void 리스트에_없는_값찾기_정수값이_값은_노드() {
-            LinkedList list = new LinkedList();
-            list.add(new ListNode(127, null), 0);
-            list.add(new ListNode(29, null), 0);
-            assertFalse(list.contains(new ListNode(127,null)));
-        }
-
     }
 }
