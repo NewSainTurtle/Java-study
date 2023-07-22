@@ -1,3 +1,5 @@
+package Problem;
+
 public class Problem02 {
     static class ListNode {
         int num;
@@ -19,9 +21,8 @@ public class Problem02 {
         public ListNode remove(ListNode head, int positionToRemove) {
             ListNode node = head;
             if(positionToRemove==0) {
-                ListNode nextNode = node.next;
-                node.next = null;
-                return nextNode;
+                head=null;
+                return head;
             }
             else {
                 for(int i=1; i<positionToRemove; i++) {
@@ -40,6 +41,10 @@ public class Problem02 {
             }
             return false;
         }
+        public String print() {
+            if(next==null) return num+"";
+            else return num+" "+next.print();
+        }
     }
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
@@ -55,5 +60,11 @@ public class Problem02 {
         node1.remove(node1,2);
         System.out.println(node1.contains(node1,node2));
         System.out.println(node1.contains(node1,node4));
+
+        ListNode node = new ListNode(1);
+        for(int i=2; i<=5; i++) {
+            node.add(node,new ListNode(i),i-1);
+        }
+        System.out.println(node.print());
     }
 }
