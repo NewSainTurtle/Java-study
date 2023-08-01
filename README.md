@@ -25,7 +25,7 @@ ex)   .
 | 2회차 | [자바 데이터 타입, 변수 그리고 배열](https://github.com/NewSainTurtle/CS-study/issues/2) | 2023.07.10 (월) | ☠️ | 📓 | 💪 | 🌼 |
 | 3회차 | [연산자](https://github.com/NewSainTurtle/CS-study/issues/3) | 2023.07.13 (목) | ☠️ | 📓 | 💪 | 🌼 |
 | 4회차 | [제어문](https://github.com/NewSainTurtle/CS-study/issues/4) | 2023.07.17 (월) |   | 📓 |  | 🌼 |
-| 5회차 | [클래스](https://github.com/NewSainTurtle/CS-study/issues/5) | 2023.07.20 (목) |   | 📓 |  | 🌼 |
-| 6회차 | [상속](https://github.com/NewSainTurtle/CS-study/issues/6) | 2023.07.27 (목) |   | 📓 |  | 🌼 |
+| 5회차 | [클래스](https://github.com/NewSainTurtle/CS-study/issues/5) | 2023.07.20 (목) |  ☠️ | 📓 |  | 🌼 |
+| 6회차 | [상속](https://github.com/NewSainTurtle/CS-study/issues/6) | 2023.07.27 (목) | ☠️  | 📓 |  | 🌼 |
 | 7회차 | [패키지](https://github.com/NewSainTurtle/CS-study/issues/7) | 2023.07.31 (월) |   | 📓 |  |  |
 
