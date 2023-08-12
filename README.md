@@ -29,6 +29,6 @@ ex)   .
 | 6회차 | [상속](https://github.com/NewSainTurtle/CS-study/issues/6) | 2023.07.27 (목) | ☠️  | 📓 | 💪 | 🌼 |
 | 7회차 | [패키지](https://github.com/NewSainTurtle/CS-study/issues/7) | 2023.07.31 (월) | ☠️  | 📓 | 💪 | 🌼 |
 | 8회차 | [인터페이스](https://github.com/NewSainTurtle/CS-study/issues/8) | 2023.08.03 (목) | ☠️  | 📓 | 💪 | 🌼 |
-| 9회차 | [예외 처리](https://github.com/NewSainTurtle/CS-study/issues/9) | 2023.08.07 (월) |   | 📓 | 💪 |  |
+| 9회차 | [예외 처리](https://github.com/NewSainTurtle/CS-study/issues/9) | 2023.08.07 (월) | ☠️  | 📓 | 💪 |  |
 | 10회차 | [멀티쓰레드 프로그래밍](https://github.com/NewSainTurtle/CS-study/issues/10) | 2023.08.10 (목) |   |  |  |  |
 
