@@ -30,6 +30,6 @@ ex)   .
 | 7회차 | [패키지](https://github.com/NewSainTurtle/CS-study/issues/7) | 2023.07.31 (월) | ☠️  | 📓 | 💪 | 🌼 |
 | 8회차 | [인터페이스](https://github.com/NewSainTurtle/CS-study/issues/8) | 2023.08.03 (목) | ☠️  | 📓 | 💪 | 🌼 |
 | 9회차 | [예외 처리](https://github.com/NewSainTurtle/CS-study/issues/9) | 2023.08.07 (월) | ☠️  | 📓 | 💪 | 🌼 |
-| 10회차 | [멀티쓰레드 프로그래밍](https://github.com/NewSainTurtle/CS-study/issues/10) | 2023.08.10 (목) |   |  |  | 🌼 |
+| 10회차 | [멀티쓰레드 프로그래밍](https://github.com/NewSainTurtle/CS-study/issues/10) | 2023.08.10 (목) |   | 📓 |  | 🌼 |
 | 11회차 | [Enum](https://github.com/NewSainTurtle/CS-study/issues/11) | 2023.08.14 (월) |   |  |  |  |
 
