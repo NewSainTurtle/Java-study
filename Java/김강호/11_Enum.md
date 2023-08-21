@@ -153,4 +153,5 @@ EnumSet.copyOf(EnumSet.of(Week.SUN, Week.SAT));
 - contains() : 특정 요소가 EnumSet에 포함되어 있는지 확인할 수 있다.
 - remove() : EnumSet에서 특정 요소를 제거할 수 있다.
 
-참고
+> #### 참고<br/>
+> [[Java] Enum, 자바의 열거타입을 알아보자](https://scshim.tistory.com/253)
