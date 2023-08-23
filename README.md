@@ -34,5 +34,6 @@ ex)   .
 | 11회차 | [Enum](https://github.com/NewSainTurtle/CS-study/issues/11) | 2023.08.14 (월) | ☠️  | 📓 |  | 🌼 |
 | 12회차 | [애노테이션](https://github.com/NewSainTurtle/CS-study/issues/12) | 2023.08.17 (목) |   | 📓 |  | 🌼 |
 | 13회차 | [I/O](https://github.com/NewSainTurtle/CS-study/issues/13) | 2023.08.21 (월) |   |  |  |  |
+| 14회차 | [제네릭](https://github.com/NewSainTurtle/CS-study/issues/14) | 2023.08.24 (목) |   |  |  |  |
 
 
